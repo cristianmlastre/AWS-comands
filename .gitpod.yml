@@ -3,9 +3,9 @@ tasks:
     before: |
       npm install -g npm@10.8.1
       npm i -g aws-cdk
-#  - name: terraform
-#    before: |
-#      ./bin/terraform_cli_install.sh
+  - name: terraform
+    before: |
+      ./bin/terraform_cli_install.sh
 #  # random utilities
 #  - name: utils
 #    before: |
