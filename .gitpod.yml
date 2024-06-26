@@ -21,4 +21,5 @@ tasks:
     env:
       AWS_CLI_AUTO_PROMPT: on-partial
     before: |
-      sudo ./bin/aws_cli_install
+      sudo chmod +x ./bin/aws_cli_install.sh
+      sudo ./bin/aws_cli_install.sh
