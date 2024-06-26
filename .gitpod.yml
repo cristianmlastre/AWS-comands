@@ -1,6 +1,7 @@
 tasks:
   - name: cdk
     before: |
+      npm install -g npm@10.8.1
       npm i -g aws-cdk
 #  - name: terraform
 #    before: |
